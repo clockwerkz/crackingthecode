@@ -6,5 +6,11 @@ test('Merge Sort function is defined', ()=>{
 
 test('Merge Sort returns a sorted array', ()=> {
     const sortedArray = mergeSort([4,1,9]);
+    console.log(sortedArray);
     expect(sortedArray).toEqual([1,4,9]);
+});
+
+test('Merge Sort returns another sorted array', ()=> {
+    const sortedArray = mergeSort([5,2,9,1,8,23,12,3,56,90]);
+    expect(sortedArray).tpEqual([1,2,3,5,8,9,12,23,56,90]);
 });
