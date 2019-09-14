@@ -24,4 +24,4 @@ function editDistance(str1, str2) {
     }
 }
 
-console.log(editDistance('abcd','abcd'));
+console.log(editDistance('giraff','giraffe'));
